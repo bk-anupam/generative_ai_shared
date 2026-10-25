@@ -1,0 +1,59 @@
+{
+  "mode": "full",
+  "device": "NVIDIA RTX 2000 Ada Generation",
+  "epochs": 2,
+  "effective_batch": 8,
+  "micro_batch": 1,
+  "max_length": 768,
+  "max_new_tokens": 400,
+  "train_examples": 2862,
+  "validation_examples": 359,
+  "full": {
+    "trainable": 124439808,
+    "minutes": 12.854419085617216,
+    "peak GB": 2.7008,
+    "validation_loss": 1.9230070114135742
+  },
+  "lora": {
+    "trainable": 294912,
+    "minutes": 8.57913308403319,
+    "peak GB": 1.098527232,
+    "validation_loss": 2.293694496154785
+  },
+  "metrics": {
+    "GPT-2 original": {
+      "BLEU": 3.726342884011257,
+      "ROUGE-1": 30.838890998085667,
+      "ROUGE-2": 6.859418084965509,
+      "ROUGE-L": 17.404462759962623,
+      "ingredients %": 56.25016331063158,
+      "words": 218.975,
+      "stopped %": 65.0
+    },
+    "GPT-2 full FT": {
+      "BLEU": 10.554098404481522,
+      "ROUGE-1": 47.483480879741364,
+      "ROUGE-2": 17.81516112170789,
+      "ROUGE-L": 29.702253462437806,
+      "ingredients %": 77.04692475996656,
+      "words": 174.775,
+      "stopped %": 97.5
+    },
+    "GPT-2 LoRA": {
+      "BLEU": 9.828724455016506,
+      "ROUGE-1": 42.605049354333495,
+      "ROUGE-2": 14.615450249420636,
+      "ROUGE-L": 25.96914245870145,
+      "ingredients %": 75.61583914021995,
+      "words": 223.3,
+      "stopped %": 80.0
+    }
+  },
+  "general_english_loss": {
+    "GPT-2 original": 3.4679901440938314,
+    "GPT-2 full FT": 4.0184570089976,
+    "GPT-2 LoRA": 3.5891048940022787
+  },
+  "adapter_mb": 1.189053,
+  "merge_max_logit_change": 0.00066375732421875
+}

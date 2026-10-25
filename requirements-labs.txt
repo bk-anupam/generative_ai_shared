@@ -1,5 +1,6 @@
 # Install in a notebook environment with a compatible PyTorch build.
-# Executed checks used torch 2.11.0+cpu and transformers 5.17.0.
+# Full GPU runs used torch 2.6.0+cu124, torchvision 0.21.0+cu124, transformers 5.17.0.
+# BERT CPU execution used torch 2.11.0+cpu. Keep a matching torch/torchvision CUDA pair.
 transformers==5.17.0
 peft==0.21.2
 accelerate==1.15.0
