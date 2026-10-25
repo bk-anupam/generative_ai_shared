@@ -1,0 +1,47 @@
+{
+  "notebooks": [
+    {
+      "path": "module2/labs/submissions/lab5/text_to_bert_lab_chirag.ipynb",
+      "executed_cells": 33,
+      "errors": 0,
+      "plots": 2
+    },
+    {
+      "path": "module3/labs/submissions/lab6/gpt2_lora_recipes_lab_chirag.ipynb",
+      "executed_cells": 30,
+      "errors": 0,
+      "plots": 2
+    },
+    {
+      "path": "module3/labs/submissions/lab7/patent_phrase_matching_chirag.ipynb",
+      "executed_cells": 0,
+      "errors": 0,
+      "plots": 0
+    },
+    {
+      "path": "module3/labs/submissions/lab7/download_weights_chirag.ipynb",
+      "executed_cells": 0,
+      "errors": 0,
+      "plots": 0
+    },
+    {
+      "path": "module1/labs/submissions/optional/unet_pet_segmentation_chirag.ipynb",
+      "executed_cells": 6,
+      "errors": 0,
+      "plots": 3
+    }
+  ],
+  "patent_training_run": false,
+  "recipe_run": "CPU smoke only",
+  "unet_run": "real-data subset only",
+  "checks": [
+    "notebook schema",
+    "Python syntax",
+    "DeBERTa input formatting",
+    "float32 regression labels",
+    "anchor isolation",
+    "U-Net forward/backward",
+    "BERT all exercise assertions",
+    "recipe smoke end-to-end"
+  ]
+}

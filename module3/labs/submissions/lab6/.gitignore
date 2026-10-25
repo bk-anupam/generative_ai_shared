@@ -1,0 +1,5 @@
+recipe_lab_outputs/data/
+recipe_lab_outputs/adapter/
+recipe_lab_outputs/full/
+recipe_lab_outputs/lora/
+.ipynb_checkpoints/
