@@ -7,3 +7,6 @@ module1/labs/autoencoders/lfw/
 *_student/
 *_outputs/
 *.pt
+
+# Upstream templates
+upstream_templates/
