@@ -33,7 +33,7 @@
   ],
   "patent_training_run": false,
   "recipe_run": "CPU smoke only",
-  "unet_run": "real-data subset only",
+  "unet_run": "complete full-data GPU run, 10 epochs, 739 held-out test images",
   "checks": [
     "notebook schema",
     "Python syntax",
@@ -43,5 +43,6 @@
     "U-Net forward/backward",
     "BERT all exercise assertions",
     "recipe smoke end-to-end"
-  ]
+  ],
+  "patent_status": "deferred at user request"
 }

@@ -1,8 +1,8 @@
 {
-  "mode": "smoke",
-  "selected_epoch": 9,
-  "test_images": 16,
-  "loss": 1.069673776626587,
-  "dice": 0.7050725966691971,
-  "iou": 0.5486231651157141
+  "mode": "full",
+  "selected_epoch": 8,
+  "test_images": 739,
+  "loss": 0.454376046446244,
+  "dice": 0.857591887612009,
+  "iou": 0.7651823355408209
 }
