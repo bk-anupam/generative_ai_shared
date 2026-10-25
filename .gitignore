@@ -1,2 +1,10 @@
 # Downloaded MNIST datasets (wherever notebooks are run).
 MNIST/
+lfw/
+module1/labs/autoencoders/lfw/
+
+# Experiment artifact outputs and checkpoints
+*_student/
+*_outputs/
+*.pt
+
